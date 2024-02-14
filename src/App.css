@@ -1,0 +1,413 @@
+body {
+  overflow-x: hidden;
+}
+.navBar {
+  background-color: black;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  height: 100%;
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+.title span i {
+  color: #3aae4a;
+}
+.bi-alipay {
+  width: 40px;
+  height: 40px;
+}
+.heading {
+  margin-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+.menu {
+  margin-left: 100px;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.menu ul li {
+  padding: 0px 10px;
+  color: white;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.dashboard {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  background-color: black;
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+.innerdashboard {
+  height: 100%;
+  width: calc(100% - 70px);
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  /* background-color: rgb(44, 44, 44); */
+}
+.EVS {
+  width: 100%;
+  height: 80px;
+  background-color: #3aae4a;
+  border-radius: 20px;
+  /* margin: 5px 0px; */
+}
+.AVG {
+  margin-top: 15px;
+  width: 100%;
+  height: 45%;
+  background-color: rgb(54, 54, 54);
+  border-radius: 20px;
+}
+.models {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 230px;
+  background-color: rgb(54, 54, 54);
+  border-radius: 20px;
+  /* margin: 5px 0px; */
+}
+
+.right {
+  /* margin: 5px; */
+  margin-left: 20px;
+  height: 100%;
+  width: 70%;
+  /* background-color: rgb(86, 22, 22); */
+}
+
+.top {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+.KM,
+.Trips,
+.carbon {
+  width: 30%;
+  height: 80px;
+  border-radius: 20px;
+  background-color: rgb(54, 54, 54);
+}
+
+.EVS {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: white;
+}
+.EVS div {
+  margin-left: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.EVSCount {
+  margin-left: 10px;
+}
+.FirstEVS {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bi-lightning-charge-fill {
+  color: #3aae4a;
+}
+
+.KM,
+.Trips,
+.carbon,
+.EVS {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+.KM div,
+.Trips div,
+.carbon div,
+.EVS div {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  align-items: start;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+.box {
+  width: 200px;
+}
+.box h1 {
+  margin: 0px;
+  font-size: 1rem;
+}
+.box h1 small {
+  font-size: 0.9rem;
+  color: rgb(113, 113, 113);
+  font-weight: 600;
+}
+
+.AVG {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.iconbox {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+}
+.head {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.boxx {
+  display: flex;
+  flex-direction: column;
+}
+
+.EVdataWndow {
+  margin: 100px 0px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  width: 95%;
+}
+
+.search {
+  display: flex;
+  margin: 20px 0px;
+  width: 90%;
+}
+.InputBox {
+  display: flex;
+  margin-left: 20px;
+}
+.searchBtn {
+  width: 40px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  outline: none;
+}
+.searchBox {
+  border: 1px solid black;
+  border-left: none;
+  outline: none;
+  height: 35px;
+  width: 500px;
+}
+
+.SortBTN {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 10px; */
+}
+.SortBTN span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 50%;
+  width: 100%;
+}
+.SortBTN span svg {
+  height: 100%;
+  width: 100%;
+}
+.Row {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h1 {
+  color: white;
+}
+
+.FirstEVS i {
+  color: #3aae4a;
+}
+
+.co2 {
+  color: #3aae4a;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.iconbox i {
+  color: #3aae4a;
+}
+.head {
+  color: white;
+}
+.head small {
+  font-size: 0.9rem;
+  color: rgb(113, 113, 113);
+  font-weight: 600;
+}
+.ImgCar {
+  width: 90%;
+  height: 80%;
+  object-position: center;
+  object-fit: contain;
+}
+
+tfoot tr {
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.status {
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 100%;
+  height: 82%;
+  background-color: rgb(54, 54, 54);
+  display: flex;
+}
+.LeftSide {
+  width: 30%;
+  height: 100%;
+  /* background-color: antiquewhite; */
+}
+
+.ChargeStatus {
+  padding: 10px;
+}
+.ChargeStatus h1 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(164, 164, 164);
+}
+.FleetsStatus {
+  margin: 5px 0px;
+  border-radius: 20px;
+  width: 100%;
+  height: 70px;
+  background-color: #2f7d39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.FleetsStatus span {
+  color: white;
+  font-size: 1rem;
+}
+.Chargedpercentage {
+  font-size: 0.8rem;
+}
+/* Full charge */
+.full-charge {
+  background-color: #4caf50; /* Green */
+}
+
+/* Medium charge */
+.medium-charge {
+  background-color: #d9a300; /* Yellow */
+}
+
+/* Short charge */
+.short-charge {
+  background-color: #ff5722; /* Orange */
+}
+
+/* Discharged */
+.discharged {
+  background-color: #f44336; /* Red */
+}
+.Heading {
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.Heading p {
+  text-align: center;
+  width: 90%;
+  height: 90%;
+}
+.CarImg {
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.RightSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
