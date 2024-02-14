@@ -20,6 +20,7 @@ useEffect(() => {
 }, [EVData]);
 
 
+![image](https://github.com/narottamandeep2003/ev-dashboard/assets/109156360/496e1d8a-bc95-4214-bbc2-3917008dd055)
 
 The total state includes the following fields:
 
@@ -41,6 +42,7 @@ The second component is a table that complements the EV Dashboard, providing a d
 
 
 The HandleSearch function filters the EV data based on a search input, updating the EVData state with the filtered results. The SortData function sorts the EV data based on the specified field and sorting type (ASC or DESC).
+![image](https://github.com/narottamandeep2003/ev-dashboard/assets/109156360/6e8b2083-cf08-4a15-a050-cfe4d194929b)
 
 Both components are designed to work together to provide a comprehensive view of the EV fleet's status and detailed statistics.
 
